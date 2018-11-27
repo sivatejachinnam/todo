@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <string name="promt_empty">Please Enter any text!</string>
+    <string name="task_todo">Task ToDo</string>
+    <string name="save_button">save</string>
+    <string name="add_description_here">Add Description here</string>
+    <string name="task_name">Task Name</string>
+    <string name="title">Tasks</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_logout">Logout</string>
+    <string name="todo_title">ToDo</string>
+    <string name="button_login">Login</string>
+    <string name="user">user</string>
+    <string name="date_time">Date_Time</string>
+    <string name="passwordhint">Password</string>
+    <string name="keep_me_in">Keep me in</string>
+    <string name="signup">signup</string>
+    <string name="new_user">New User?</string>
+    <string name="user_namehint">User Name</string>
+    <string name="addtask">ADD</string>
+</resources>

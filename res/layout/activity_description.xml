@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescriptionActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taskname">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/descripition"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/add_description_here"
+            android:textSize="24sp"
+            android:padding="15dp"
+            android:inputType="text|textMultiLine"
+            android:background="@drawable/textinputshape"
+            android:textColorHint="#e40f52" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/save_button"
+        android:textStyle="bold"
+        android:textColor="#050505"
+        android:background="@drawable/buttonshape"
+        android:onClick="saveOnclick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+    <TextView
+        android:id="@+id/taskname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#09a0e6"
+        android:hint="@string/task_name"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

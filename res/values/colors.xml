@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDarkGray">#b1b3b1</color>
+    <color name="colorWhite">#fffdfd</color>
+    <color name="title_color">#7b0693</color>
+    <color name="fab_background_color">#d6a00c</color>
+    <color name="DarkGray">#818080</color>
+    <color name="White">#FFFFFF</color>
+    <color name="todobg">#a26ed4</color>
+    <color name="signupbg">#93c8da</color>
+
+</resources>
